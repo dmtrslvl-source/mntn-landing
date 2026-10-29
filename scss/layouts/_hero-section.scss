@@ -1,6 +1,17 @@
-.hero-section__title {
-    font-family: 'Playfair Display';
-    font-weight: 600;
-    line-height: 1.14;
-    font-size: 88px;
+.hero-section {
+    background-image: url('../images/bcg-hero.jpg');
+
+
+    &__title {
+        font-family: 'Playfair Display';
+        font-weight: 600;
+        line-height: 1.14;
+        font-size: 88px;
+    }
+
+    &__arrow {
+        fill: var(--color-text);
+        transform: rotate(90deg);
+    }
 }
+
